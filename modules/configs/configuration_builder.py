@@ -13,3 +13,10 @@ def get_config():
     if global_config is None:
         global_config = build_config()
     return global_config
+
+
+def get_database_config():
+    config = get_config()
+    return {
+        
+    }
